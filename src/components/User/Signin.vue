@@ -1,7 +1,11 @@
 <template>
-        <div>
-                <h4>This is the Signin page</h4>
-        </div>
+        <v-content>
+                <v-container fluid fill-height>
+                        <v-layout justify-center align-center>
+                                <h3>This is the sign in page</h3>
+                        </v-layout>
+                </v-container>
+        </v-content>
   
 </template>
 <script>
