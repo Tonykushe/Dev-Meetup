@@ -17,7 +17,7 @@
                 </v-navigation-drawer>
 
                 <v-toolbar dark  app  fixed clipped-left  class="error">
-                        <v-toolbar-side-icon @click="sideNav = !sideNav"></v-toolbar-side-icon>
+                        <v-toolbar-side-icon @click="sideNav = !sideNav" class="hidden-sm-and-up "></v-toolbar-side-icon>
                         <v-toolbar-title>
                                 <router-link to="/" tag="span" style="cursor : pointer">DevMeetup</router-link>
                         </v-toolbar-title>
